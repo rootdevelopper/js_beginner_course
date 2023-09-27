@@ -1,0 +1,26 @@
+{
+  "name": "lecture1",
+  "version": "1.0.0",
+  "description": "Control flow and functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "if",
+    "else",
+    "if",
+    "loop",
+    "for",
+    "loop",
+    "while",
+    "loop",
+    "switch",
+    "ternary"
+  ],
+  "author": "rootdevelopper",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
