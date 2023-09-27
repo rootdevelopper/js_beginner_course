@@ -1,0 +1,24 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "This Hangman game is a simple command-line-based game where you guess letters to uncover the hidden word. It demonstrates the use of classes, arrays, loops, conditional statements, and basic game logic.",
+  "main": "hangman-game",
+  "scripts": {
+    "start": "node hangman-game.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "Hangman",
+    "command-line-based",
+    "game",
+    "control",
+    "flow",
+    "and",
+    "functions"
+  ],
+  "author": "rootdevelopper",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
