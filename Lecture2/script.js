@@ -14,11 +14,18 @@ function updateColorPreview() {
     const green = greenSlider.value;
     const blue = blueSlider.value;
     const color = `rgb(${red},${green},${blue})`;
+    const redShade = `rgb(${red},0,0)`;
+    const greenShade = `rgb(0,${green},0)`;
+    const blueShade = `rgb(0,0,${blue})`;
  
+
     colorPreview.style.backgroundColor = color;
     redValue.textContent = red;
     greenValue.textContent = green;
     blueValue.textContent = blue;
+    redValue.style.color = redShade;
+    greenValue.style.color = greenShade;
+    blueValue.style.color = blueShade;
 
 }
 
