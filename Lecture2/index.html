@@ -4,24 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Color Slider</title>
+    <title>Image Gallery - Home</title>
 </head>
 <body>
-    <div class="color-slider">
-        <label for="red">Red:</label>
-        <input type="range" id="red" min="0" max="255" value="0" class="sliderRed">
-        <span id="red-value">0</span>
-        <br>
-        <label for="green">Green:</label>
-        <input type="range" id="green" min="0" max="255" value="0" class="sliderGreen" >
-        <span id="green-value">0</span>
-        <br>
-        <label for="blue">Blue:</label>
-        <input type="range" id="blue" min="0" max="255" value="0" class="sliderBlue">
-        <span id="blue-value">0</span>
-        <br>
-
-        <div id="color-preview"></div>
+    <header>
+        <h1>My Art Gallery</h1>
+        <input type="text" id="search" placeholder="Search">
+    </header>
+    <div class="gallery" id="image-gallery">
+        <!-- Images will be added here dynamically with JavaScript -->
     </div>
     <script src="script.js"></script>
 </body>
